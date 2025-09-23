@@ -19,6 +19,34 @@
             padding: 0;
         }
 
+        /* Estilos para el menú de navegación de actividades */
+        nav {
+            background-color: #aac5e3;
+            padding: 15px 0;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(32, 89, 143, 0.2);
+        }
+
+        .menu-item {
+            display: inline-block;
+            background-color: #ffe3ec;
+            border: 2px dashed rgba(170, 197, 227, 0.75);
+            border-radius: 25px;
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-family: "Comic Relief", sans-serif;
+            font-weight: 400;
+            color: #20598f;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .menu-item:hover {
+            background-color: #fac9d7;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(255, 108, 146, 0.3);
+        }
+
         header {
             width: 100%;
             height: 100px;
@@ -107,11 +135,22 @@
 
 <body>
 
-    
+   
 
     <header>
         <p>MIRI´S BINNACLE</p>
     </header>
+     <!-- Menú de navegación solo para actividades -->
+    <nav>
+        <!-- Enlace a la Actividad 1 -->
+        <a href="#actividad1" class="menu-item">Actividad 1</a>
+        <!-- Enlace a la Actividad 2 -->
+        <a href="#actividad2" class="menu-item">Actividad 2</a>
+        <!-- Enlace a la Actividad 3 -->
+        <a href="#actividad3" class="menu-item">Actividad 3</a>
+        <!-- Enlace a la Actividad 4 -->
+        <a href="#actividad4" class="menu-item">Actividad 4</a>
+    </nav>
 
     <section>
         <h4>
@@ -139,8 +178,8 @@
     </section>
 
 
-    <!-- Un canva buuu -->
-    <div>
+    <!-- Actividad 1 con ID para navegación -->
+    <div id="actividad1">
         <p>Actividad 1</p>
         <div style="position: relative; width: 60%; height: 0; padding-top: 33.8%;
       box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin: 1.6em auto 0.9em auto;
@@ -158,7 +197,7 @@
         <p>Mapas</p>
         <div class="iframe-container">
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3393.04382283421!2d-106.4374271236817!3d31.742004786157413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e75be35fd9713f%3A0x51a85a69dba383ad!2sIADA-IIT%201%2C%20C.%20Henry%20Dunant%2C%2032417%20Ju%C3%A1rez%2C%20Chih.!5e0!3m2!1ses-419!2smx!4v1757472943518!5m2!1ses-419!2smx"
+                src="https://www.google.maps/embed?pb=!1m18!1m12!1m3!1d3393.04382283421!2d-106.4374271236817!3d31.742004786157413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e75be35fd9713f%3A0x51a85a69dba383ad!2sIADA-IIT%201%2C%20C.%20Henry%20Dunant%2C%2032417%20Ju%C3%A1rez%2C%20Chih.!5e0!3m2!1ses-419!2smx!4v1757472943518!5m2!1ses-419!2smx"
                 width="600" height="450" style="border-radius: 20px;" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade">
             </iframe>
@@ -166,8 +205,8 @@
     </div>
 
 
-    <!-- Otro canva 2 -->
-    <div>
+    <!-- Actividad 2 con ID para navegación -->
+    <div id="actividad2">
         <p>Actividad 2</p>
         <div style="position: relative; width: 60%; height: 0; padding-top: 33.8%;
       box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin: 1.6em auto 0.9em auto;
@@ -193,8 +232,8 @@
     </div>
 
 
-    <!-- Otro Canvas 3 -->
-    <div>
+    <!-- Actividad 3 con ID para navegación -->
+    <div id="actividad3">
         <p>Actividad 3</p>
         <div style="position: relative; width: 60%; height: 0; padding-top: 33.8%;
       box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin: 1.6em auto 0.9em auto;
@@ -237,8 +276,8 @@
     </div>
 
 
-    <!-- Otro Canvas 4 -->
-    <div>
+    <!-- Actividad 4 con ID para navegación -->
+    <div id="actividad4">
         <p>Actividad 4</p>
         <div style="position: relative; width: 60%; height: 0; padding-top: 33.8%;
         box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin: 1.6em auto 0.9em auto;
@@ -259,15 +298,3 @@
 
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-

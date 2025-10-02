@@ -18,14 +18,20 @@
             background-color: #f999b4;
             margin: 0;
             padding: 0;
+            padding-top: 80px;
         }
 
-        /* Estilos para el menú de navegación de actividades */
+        /* Esto es para el menú de las actividades */
         nav {
             background-color: #aac5e3;
             padding: 15px 0;
             text-align: center;
             box-shadow: 0 2px 10px rgba(32, 89, 143, 0.2);
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
         }
 
         .menu-item {
@@ -167,14 +173,7 @@
 
 <body>
 
-   
-
-    <header>
-        <p>MIRI´S BINNACLE</p>
-    </header>
-
-    
-     <!-- Menu solo para actividades -->
+    <!-- Menu solo para actividades -->
     <nav>
         <!-- Enlace a la Actividad 1 -->
         <a href="#actividad1" class="menu-item">Actividad 1</a>
@@ -187,6 +186,12 @@
         <!-- Enlace a la Actividad 4 -->
         <a href="#actividad5" class="menu-item">Actividad 5</a>
     </nav>
+
+    
+    <header>
+        <p>MIRI´S BINNACLE</p>
+    </header>
+
 
     <section>
         <h4>
@@ -387,6 +392,7 @@
 
 
 </html>
+
 
 
 

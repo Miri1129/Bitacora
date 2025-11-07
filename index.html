@@ -321,13 +321,21 @@
 </body>
 
     <!-- Banner de cookies -->
-<div class="cookie-banner">
+<!-- Banner de cookies -->
+<div class="cookie-banner" id="cookieBanner">
   <h4>Usamos cookies para que tu experiencia sea más bonita</h4>
-  <button class="cookie-btn">Aceptar</button>
+  <button class="cookie-btn" id="acceptCookies">Aceptar</button>
 </div>
+
+<script>
+  document.getElementById("acceptCookies").addEventListener("click", function() {
+    document.getElementById("cookieBanner").style.display = "none";
+  });
+</script>
 
 
 </html>
+
 
 
 

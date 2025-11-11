@@ -268,3 +268,87 @@ body {
   }
 }
 
+/* --- SECCIÓN PARALLAX --- */
+.parallax {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/007/374/888/non_2x/simple-background-with-checkered-notebook-and-pen-doodles-illustration-for-school-vector.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-top: 3px dashed rgba(170,197,227,0.75);
+  border-bottom: 3px dashed rgba(170,197,227,0.75);
+}
+
+.parallax::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(250,201,215,0.6); /* filtro rosado translúcido */
+  backdrop-filter: blur(3px);
+}
+
+.parallax-texto {
+  position: relative;
+  text-align: center;
+  color: #20598f;
+  font-family: "Comic Relief", sans-serif;
+  z-index: 1;
+}
+
+.parallax-texto h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.parallax-texto p {
+  font-size: 20px;
+  background-color: #ffe3ec;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 2px dashed rgba(170,197,227,0.75);
+}
+
+/* --- SECCIÓN SVG DECORATIVO --- */
+.svg-ejemplo {
+  background-color: #ffe3ec;
+  padding: 60px 20px;
+  text-align: center;
+  font-family: "Comic Relief", sans-serif;
+  color: #20598f;
+  border-top: 3px dashed rgba(170,197,227,0.75);
+  border-bottom: 3px dashed rgba(170,197,227,0.75);
+}
+
+.svg-ejemplo h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.svg-ejemplo p {
+  font-size: 18px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* --- ONDA SVG ENTRE SECCIONES --- */
+.onda-separadora svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+

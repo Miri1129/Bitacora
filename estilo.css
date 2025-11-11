@@ -272,11 +272,12 @@ body {
  .parallax {
             background-image: url("https://share.google/images/9bxsGO1a6ntyuFOJV");
             height: 900px;
-            width: 1200px;
+            width: auto;
             background-attachment: fixed;
             background-repeat: no-repeat;
             background-size: cover;
         }
+
 
 
 

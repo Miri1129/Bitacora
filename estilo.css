@@ -271,14 +271,15 @@ body {
 
 
 .parallax {
-  background-image: url('ruta-de-tu-imagen.jpg'); /* cambia por tu imagen */
-  height: 100vh; /* alto del contenedor */
-  background-attachment: fixed; /* clave del efecto */
+  background-image: url("Aespa1.jpg");
+  height: 100vh;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
  
+
 
 
 

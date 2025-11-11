@@ -269,16 +269,15 @@ body {
 }
 
 
+ .parallax {
+            background-image: url("https://share.google/images/9bxsGO1a6ntyuFOJV");
+            height: 900px;
+            width: 1200px;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
 
-.parallax {
-  background-image: url("Aespa1.jpeg");
-  height: 100vh;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
- 
 
 
 

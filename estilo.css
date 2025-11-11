@@ -271,7 +271,7 @@ body {
 
 
 .parallax {
-  background-image: url("Aespa1.jpg");
+  background-image: url("Aespa1.jpeg");
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
@@ -279,6 +279,7 @@ body {
   background-size: cover;
 }
  
+
 
 
 

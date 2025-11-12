@@ -269,17 +269,26 @@ body {
 }
 
 
- .parallax {
-            background-image: url("https://recreio.com.br/wp-content/uploads/2024/05/aespa-supernova_capa.jpg");
-            height: 900px;
-            width: auto;
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-             background-size: cover;
-background-position: center;
-        }
+.parallax {
+  background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
+  height: 900px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-
+.parallax p {
+  font-family: "Comic Relief", sans-serif;
+  font-size: 60px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px 40px;
+  border-radius: 15px;
+}
 
 
 

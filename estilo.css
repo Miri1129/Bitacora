@@ -308,6 +308,22 @@ body {
   transform: scale(1.4) rotate(0deg);
 }
 
+
+.contexto {
+            opacity: 0.5;
+        }
+ 
+        .contexto:hover {
+            opacity: 1.0;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: #cde7ff;
+        }
+        .box:hover{
+            background-color: #ffd6e0;
+        }
 .img1{
             filter: blur(6px);
         }
@@ -323,6 +339,7 @@ body {
         .img5{
             filter: invert(70%);
         }
+
 
 
 

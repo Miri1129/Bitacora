@@ -294,7 +294,7 @@ body {
       width: 80px;
       height: 80px;
       fill: currentColor;
-      color: #20598f;
+      color: #aac5e3;
       transition: transform 0.3s ease, color 0.3s ease;
       cursor: pointer;
       margin: 50px; /* solo para espacio */
@@ -307,6 +307,7 @@ body {
       color: #ff66aa;
       transform: scale(1.4) rotate(0deg);
     }
+
 
 
 

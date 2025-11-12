@@ -292,9 +292,8 @@ body {
 
 .contenedor-icono {
   display: flex;
-  justify-content: center; /* Centra horizontalmente */
-  align-items: center;     /* Centra verticalmente */
-  height: 100vh;           /* Ocupa toda la pantalla */
+  justify-content: center; 
+  align-items: center;    
 }
 
 .iconoCake {
@@ -346,6 +345,7 @@ body {
         .img5{
             filter: invert(70%);
         }
+
 
 
 

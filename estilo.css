@@ -270,12 +270,15 @@ body {
 
 
  .parallax {
-            background-image: url("https://share.google/images/9bxsGO1a6ntyuFOJV");
+            background-image: url("https://recreio.com.br/wp-content/uploads/2024/05/aespa-supernova_capa.jpg");
             height: 900px;
             width: auto;
             background-attachment: fixed;
             background-repeat: no-repeat;
+             background-size: cover;
+background-position: center;
         }
+
 
 
 

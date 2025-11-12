@@ -270,7 +270,7 @@ body {
 
 
 .parallax {
-  background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
+  background-image: url("https://www.lacuarta.com/resizer/v2/3DCSSBAP4FCNJOLDWMHZA4XWYM.jpg?auth=b9105e9c66b696fe9f683be87c9ef9f8e263a273013bb858e4817f6160861bf8&focal=608%2C339&width=800&height=533&quality=70");
   height: 900px;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -346,6 +346,7 @@ body {
         .img5{
             filter: invert(70%);
         }
+
 
 
 

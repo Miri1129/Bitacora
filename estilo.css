@@ -290,13 +290,23 @@ body {
   border-radius: 15px;
 }
 
-*{
-            margin: 0;
-            padding: 0;
-        }
-        svg {
-            fill: #f999b4;
-        }
+.iconoCake {
+      width: 80px;
+      height: 80px;
+      fill: currentColor;
+      color: #20598f;
+      transition: transform 0.3s ease, color 0.3s ease;
+      cursor: pointer;
+      margin: 50px; /* solo para espacio */
+    }
+    .iconoCake:hover {
+      color: #fac9d7;
+      transform: scale(1.2) rotate(-10deg);
+    }
+    .iconoCake.scroll-active {
+      color: #ff66aa;
+      transform: scale(1.4) rotate(0deg);
+    }
 
 
 

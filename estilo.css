@@ -308,6 +308,21 @@ body {
   transform: scale(1.4) rotate(0deg);
 }
 
+.img1{
+            filter: blur(6px);
+        }
+        .img2{
+            filter: brightness(50%);
+        }
+        .img3{
+            filter: contrast(50%);
+        }
+        .img4{
+            filter: grayscale(60%);
+        }
+        .img5{
+            filter: invert(70%);
+        }
 
 
 

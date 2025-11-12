@@ -290,6 +290,13 @@ body {
   border-radius: 15px;
 }
 
+.contenedor-icono {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center;     /* Centra verticalmente */
+  height: 100vh;           /* Ocupa toda la pantalla */
+}
+
 .iconoCake {
   width: 80px;
   height: 80px;
@@ -339,6 +346,7 @@ body {
         .img5{
             filter: invert(70%);
         }
+
 
 
 

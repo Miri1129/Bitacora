@@ -297,7 +297,9 @@ body {
       color: #aac5e3;
       transition: transform 0.3s ease, color 0.3s ease;
       cursor: pointer;
-      margin: 50px; /* solo para espacio */
+      margin: 50px;
+      justify-content: center;
+  align-items: center;
     }
     .iconoCake:hover {
       color: #fac9d7;
@@ -307,6 +309,7 @@ body {
       color: #ff66aa;
       transform: scale(1.4) rotate(0deg);
     }
+
 
 
 
